@@ -2,14 +2,15 @@
   "store.product": {
     "children": [
       "flex-layout.row#main"
-    ]
+    ],
+    "props": { 
+      "marginTop": 6
+    }
   },
   "flex-layout.row#main":{
     "children":[
       "flex-layout.row#left",
-      "flex-layout.col",
-      "flex-layout.row#right",
-      "flex-layout.col"
+      "flex-layout.row#right"
     ]
   },
   "flex-layout.row#left":{
@@ -17,11 +18,10 @@
       "product-images"
     ]
   },
-  "flex-layout#right":{
+  "flex-layout.row#right":{
     "children":[
       "product-name",
-      "product-price",
-      "pay-button"
+      "product-price"
     ],
     "props":{
       "verticalAlign": "middle",
