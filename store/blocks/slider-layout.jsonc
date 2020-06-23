@@ -5,7 +5,13 @@
             "autoplay":{
               "timeout": 5000,
               "stopOnHover": false
-            }
+            },
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": true
         }
     },
     "image#brand1":{
