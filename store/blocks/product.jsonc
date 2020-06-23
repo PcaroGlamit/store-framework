@@ -8,7 +8,8 @@
   "flex-layout.row#main":{
     "children":[
       "flex-layout.row#left",
-      "flex-layout.row#right"
+      "flex-layout.row#right",
+      "flex-layout.col"
     ]
   },
   "flex-layout.row#left":{
