@@ -18,10 +18,12 @@
       "product-images"
     ]
   },
-  "flex-layout.col#right": {
+  "flex-layout.col#right":{
     "children": [
       "product-name",
       "product-price",
+      "product-price-savings",
+      "product-installments",
       "buy-button"
     ],
     "props":{
@@ -29,10 +31,9 @@
       "preventVerticalStretch": true
     }
   },
-  "product-price":{
+  "product-price-savings":{
     "props":{
-      "showSavings": true,
-      "showListPrice": true
+      "showSavings":true
     }
   }
 }
