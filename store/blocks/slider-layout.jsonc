@@ -1,6 +1,6 @@
 {
     "slider-layout#home":{
-        "children":[
+        "children": [
             "image#brand1",
             "image#brand2",
             "image#brand3",
@@ -8,12 +8,12 @@
             "image#brand5",
             "image#brand6"
         ],
-        "props":{
-            "autoplay":{
-                "timeout":5000,
-                "stopOnHover": false
+        "props": {
+            "autoplay": {
+              "timeout": 5000,
+              "stopOnHover": false
             }
-        }
+          }
     },
     "image#brand1":{
         "props":{
