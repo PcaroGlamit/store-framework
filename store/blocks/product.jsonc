@@ -22,8 +22,7 @@
     "children": [
       "product-name",
       "product-price",
-      "product-price-savings",
-      "product-installments",
+      
       "buy-button"
     ],
     "props":{
@@ -34,7 +33,7 @@
   "product-price":{
       "props":{
         "showSavings": true,
-        "showListPrice": false
+        "showListPrice": true
       }
   }
 }
