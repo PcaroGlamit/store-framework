@@ -7,14 +7,14 @@
   "flex-layout.row#main":{
     "children":[
       "flex-layout.row#left",
-      "flex-layout.row#right"
-      
+      "flex-layout.col",
+      "flex-layout.row#right",
+      "flex-layout.col"
     ]
   },
   "flex-layout.row#left":{
     "children":[
-      "product-images",
-      "flex-layout.col"
+      "product-images"
     ]
   },
   "flex-layout#right":{
