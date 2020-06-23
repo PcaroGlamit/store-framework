@@ -14,14 +14,16 @@
   },
   "flex-layout.row#left":{
     "children":[
-      "product-images"
+      "product-images",
+      "flex-layout.col"
     ]
   },
   "flex-layout#right":{
     "children":[
       "product-name",
       "product-price",
-      "pay-button"
+      "pay-button",
+      "flex-layout.col"
     ],
     "props":{
       "verticalAlign": "middle",
