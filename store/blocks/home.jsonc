@@ -97,7 +97,7 @@
 
   "rich-text#desktop": {
     "props": {
-      "text": "<h3># Your Coffee, Your Way \n ### New Coffee Makers Collection</h3>",
+      "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
@@ -105,7 +105,7 @@
   
   "rich-text#mobile": {
     "props": {
-      "text": "<h4># Your Coffee, Your Way \n ### New Coffee Makers Collection</h4>",
+      "text": "<h4># Your Coffee, Your Way</h4><h3>### New Coffee Makers Collection</h3>",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
