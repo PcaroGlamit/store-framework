@@ -2,7 +2,7 @@
     "store.custom#landing":{
         "blocks":[
             "image#landingbanner",
-            "search-result-layout.customQuery#landing"
+            "search-result-layout.customQuery#landingquery"
         ]
     },
     "image#landingbanner":{
@@ -11,14 +11,14 @@
             "src": "https://gama.vtexassets.com/assets/vtex.file-manager-graphql/images/Slider%20desk%20%283%29111111___be499f626732ad4ca4222598b83d8f2a.png"
         }
     },
-    "search-result-layout.customQuery#landing":{
+    "search-result-layout.customQuery#landingquery":{
         "props":{
             "querySchema": {
                 "orderByField":"OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage":8,
-                "query": "Blue Top Retro Camera"
-              }
+                "queryField": "Blue Top Retro Camera"
+            }
         }
     }
 }
