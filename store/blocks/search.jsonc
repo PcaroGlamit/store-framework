@@ -24,7 +24,10 @@
     "children": [
       "flex-layout.col#filter",
       "flex-layout.col#search"
-    ]
+    ],
+    "props":{
+      "width":"grow"
+    }
   },
 
   //left 
