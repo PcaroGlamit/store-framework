@@ -11,13 +11,20 @@
           "header-layout.mobile"
         ]
       },
-      
+
     "header-layout.desktop": {
         "children": [
           "header-row#notification",
           "header-row#main"
         ]
     },
+    "header-layout.mobile": {
+        "children": [
+            "header-row#notification",
+            "header-row#main-mobile",
+            "header-row#search"
+        ]
+      },
     //notification
     "header-row#notification": {
         "children": [
@@ -49,13 +56,6 @@
     },
 
     //mobile
-    "header-layout.mobile": {
-        "children": [
-          "header-row#notification",
-          "header-row#main-mobile",
-          "header-row#search"
-        ]
-    },
     "header-row#main-mobile": {
         "children": [
           "logo",
