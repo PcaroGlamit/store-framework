@@ -10,7 +10,7 @@
     }
   },
 
-  //menu items primario con submenu
+
   "menu-item#major-appliances": {
     "props": {
       "type": "custom",
@@ -20,10 +20,10 @@
         "text": "Major Appliances"
       }
     },
-    "blocks":["vtex.menu@2.x:submenu#major"] //definiendo submenu
+    "blocks":["vtex.menu@2.x:submenu#major"]
   },
 
-  //submenu
+
   "vtex.menu@2.x:submenu#major":{
     "children":[
       "vtex.menu@2.x:menu#major"
@@ -38,10 +38,9 @@
     "props":{
       "orientation":"vertical"
     }
-  },// end item con submenu
+  },
 
 
-  //item primario con submenu
   "menu-item#small-appliances": {
       "props":{
         "type": "custom",
@@ -51,9 +50,9 @@
           "text": "Small Appliances"
         }
       },
-      "blocks":["vtex.menu@2.x:submenu#small"]//definiendo submenu
+      "blocks":["vtex.menu@2.x:submenu#small"]
   },
-  //submenu
+
   "vtex.menu@2.x:submenu#small":{
     "children":[
       "vtex.menu@2.x:menu#small"
@@ -68,8 +67,8 @@
       "menu-item#toasters",
       "menu-item#coffee"
     ]
-  },//end item con submenu
-  //item primario con submenu
+  },
+
   "menu-item#electronics": {
       "props":{
         "type": "custom",
@@ -79,9 +78,9 @@
           "text": "Electronics"
         }
       },
-      "blocks":["vtex.menu@2.x:submenu#electronics"]//definiendo submenu
+      "blocks":["vtex.menu@2.x:submenu#electronics"]
   },
-  //submenu
+
   "vtex.menu@2.x:submenu#electronics":{
     "children":["vtex.menu@2.x:menu#electronics"]
   },
@@ -95,7 +94,7 @@
       "menu-item#tvs"
     ]
   },
-  //menu items secundarios
+
   "menu-item#refrigerators": {
       "props":{
         "type": "custom",

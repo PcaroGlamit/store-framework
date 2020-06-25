@@ -26,7 +26,7 @@
             "header-row#search"
         ]
       },
-    //notification
+
     "header-row#notification": {
         "children": [
           "header-spacer",
@@ -40,7 +40,7 @@
           "textPosition": "CENTER"
         }
     },
-    //main
+
     "header-row#main":{
         "children": [
             "logo",
@@ -56,7 +56,7 @@
         }
     },
 
-    //menu
+
     "header-row#menu": {
       "children": [
         "header-spacer",
@@ -65,7 +65,7 @@
       ]
     },
 
-    //mobile
+
     "header-row#main-mobile": {
         "children": [
           "drawer",
@@ -89,7 +89,7 @@
         }
     },
 
-    //logo y login
+
     "login":{
         "props": {
           "showIconProfile": true,
